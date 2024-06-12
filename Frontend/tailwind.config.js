@@ -12,7 +12,9 @@ export default {
         ter: '#fed29f',
         cuar: '#ccae91',
         lin: '#fbeec0',
-        b: '#f2e6d8'
+        b: '#f2e6d8',
+        form: "#f9f0e8",
+        sen: "#eacbac"
       },
       fontFamily: {
         ti: ['Noto Sans', 'sans-serif'] ,
