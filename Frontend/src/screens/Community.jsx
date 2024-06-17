@@ -1,9 +1,10 @@
-
+import Layout from '../Components/Layout';
 
 const Community = () => {
   return (
-    <div >
-    </div>
+    <Layout >
+      <h1>Comunidad</h1>
+    </Layout>
   )
 }
 

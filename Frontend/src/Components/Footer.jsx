@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer
       id="contact"
-      className="bg-cover bg-center lg:h-auto lg:w-screen "
+      className="bg-cover bg-center lg:h-auto w-full"
       style={{ backgroundImage: `url(${backgroundImage})` }}
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">

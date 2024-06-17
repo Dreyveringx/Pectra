@@ -1,9 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* Estilos personalizados */
 .link-container {
   white-space: nowrap;
 }
+
+@layer utilities {
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    @apply appearance-none m-0;
+  }
+
+  input[type="number"] {
+    @apply appearance-none;
+  }
+}
+
+.relative {
+  position: relative;
+}
+
+.rotating-circle {
+  animation: rotateCircle 40s linear infinite;
+}
+
+.circle-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(calc(var(--i) * 60deg)) translate(100px) rotate(calc(-1 * var(--i) * 60deg));
+}
+
+.small-icon {
+  height: 50px; /* Tamaño en pantallas pequeñas */
+  width: auto;
+}
+
+@media (min-width: 1024px) {
+  .large-icon {
+    height: 80px; /* Tamaño en pantallas grandes */
+  }
+}
+
+@keyframes rotateCircle {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+

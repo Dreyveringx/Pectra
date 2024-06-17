@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import backgroundImage from "../assets/backgroundPectra.svg";
 import Salon from '../assets/Salon.svg';
 import Hairdressers from '../assets/Philip_Vukelich___NYC_Photographer___How_to_make_a_hand-painted_canvas_photography_backdrop-removebg-preview 1.svg';
@@ -26,7 +25,7 @@ const Benefit = () => {
         <p className='text-2xl font-pa font-normal lg:mx-28 mx-10 mb-4 flex flex-col text-left '>
             Desde la programación sencilla hasta las herramientas de marketing, estamos aquí para ayudarte a crecer. ¿Quieres saber más?
             
-                <Link to="Benefits" className='bg-lin rounded-xl px-4 py-2 mt-8 ring-2 ring-black hover:bg-ter text-center font-ti text-xl'><b>Descubre todos los beneficios</b></Link>
+                <a href="Benefits" className='bg-lin rounded-xl px-4 py-2 mt-8 ring-2 ring-black hover:bg-ter text-center font-ti text-xl'><b>Descubre todos los beneficios</b></a>
             
         </p>
     </div>

@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import Comunidad from "../assets/community.svg"
 import backgroundImage from "../assets/backgroundPectra.svg";
 
@@ -18,7 +17,7 @@ const Community = () => {
             ¡Únete a nuestra vibrante comunidad en línea!
             Descubre un lugar donde la conversación cobra vida, las preguntas encuentran respuestas y donde compartimos conocimientos juntos.
             </p>
-            <Link to="Community" className="bg-lin rounded-xl px-4 py-2 ring-2 ring-black hover:bg-ter text-center font-ti text-xl"><b>¡Esperamos verte Allí!</b></Link>
+            <a href="Community" className="bg-lin rounded-xl px-4 py-2 ring-2 ring-black hover:bg-ter text-center font-ti text-xl"><b>¡Esperamos verte Allí!</b></a>
         </div>
     </div>
 </div>

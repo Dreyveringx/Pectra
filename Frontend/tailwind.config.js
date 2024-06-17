@@ -14,7 +14,9 @@ export default {
         lin: '#fbeec0',
         b: '#f2e6d8',
         form: "#f9f0e8",
-        sen: "#eacbac"
+        sen: "#eacbac",
+        in: "#ebe2da",
+        bg: "#f8ede3"
       },
       fontFamily: {
         ti: ['Noto Sans', 'sans-serif'] ,
