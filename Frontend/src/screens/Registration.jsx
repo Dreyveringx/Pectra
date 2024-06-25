@@ -161,7 +161,7 @@ const Registration = () => {
                         required={field.required}
                         min={field.min}
                         max={field.max}
-                        className="px-2 py-3 mt-1 block w-full rounded-md bg-in focus:bg-ter focus:bg-opacity-20 border border-gray-300 shadow-sm focus:border-ter focus:outline-none focus:ring-ter sm:text-sm"
+                        className="px-2 py-3 mt-1 block w-full rounded-md bg-in focus:bg-ter focus:bg-opacity-20 border border-cuar shadow-sm focus:border-ter focus:outline-none focus:ring-ter sm:text-sm"
                       />
                     )}
                   </div>
